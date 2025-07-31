@@ -1,0 +1,367 @@
+npm verbose pkgid node-pty@1.0.0
+npm error code 1
+npm error path /home/vboxuser/Documents/whosedev/node_modules/node-pty
+npm error command failed
+npm error command sh -c node-gyp rebuild
+npm error make: Entering directory '/home/vboxuser/Documents/whosedev/node_modules/node-pty/build'
+npm error   g++ -o Release/obj.target/pty/src/unix/pty.o ../src/unix/pty.cc '-DNODE_GYP_MODULE_NAME=pty' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_GLIBCXX_USE_CXX11_ABI=1' '-D_FILE_OFFSET_BITS=64' '-D_LARGEFILE_SOURCE' '-D__STDC_FORMAT_MACROS' '-DOPENSSL_NO_PINSHARED' '-DOPENSSL_THREADS' '-DBUILDING_NODE_EXTENSION' -I/home/vboxuser/.cache/node-gyp/22.17.1/include/node -I/home/vboxuser/.cache/node-gyp/22.17.1/src -I/home/vboxuser/.cache/node-gyp/22.17.1/deps/openssl/config -I/home/vboxuser/.cache/node-gyp/22.17.1/deps/openssl/openssl/include -I/home/vboxuser/.cache/node-gyp/22.17.1/deps/uv/include -I/home/vboxuser/.cache/node-gyp/22.17.1/deps/zlib -I/home/vboxuser/.cache/node-gyp/22.17.1/deps/v8/include -I../../nan  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -Wall -m64 -O3 -fno-omit-frame-pointer -fno-rtti -fno-exceptions -fno-strict-aliasing -std=gnu++17 -MMD -MF ./Release/.deps/Release/obj.target/pty/src/unix/pty.o.d.raw   -c
+npm error make: Leaving directory '/home/vboxuser/Documents/whosedev/node_modules/node-pty/build'
+npm error gyp info it worked if it ends with ok
+npm error gyp verb cli [
+npm error gyp verb cli '/home/vboxuser/.nvm/versions/node/v22.17.1/bin/node',
+npm error gyp verb cli '/home/vboxuser/Documents/whosedev/node_modules/.bin/node-gyp',
+npm error gyp verb cli 'rebuild'
+npm error gyp verb cli ]
+npm error gyp info using node-gyp@10.2.0-electron.1
+npm error gyp info using node@22.17.1 | linux | x64
+npm error gyp verb clean removing "build" directory
+npm error gyp verb find Python Python is not set from command line or npm configuration
+npm error gyp verb find Python Python is not set from environment variable PYTHON
+npm error gyp verb find Python checking if "python3" can be used
+npm error gyp verb find Python - executing "python3" to get executable path
+npm error gyp sill find Python execFile: exec = "python3"
+npm error gyp sill find Python execFile: args = ["-c","import sys; sys.stdout.buffer.write(sys.executable.encode('utf-8'));"]
+npm error gyp sill find Python execFile: opts = {"env":{"LESSOPEN":"| /usr/bin/lesspipe %s","npm_package_dev":"","USER":"vboxuser","npm_config_user_agent":"npm/10.9.2 node/v22.17.1 linux x64 workspaces/false","XDG_SESSION_TYPE":"wayland","npm_node_execpath":"/home/vboxuser/.nvm/versions/node/v22.17.1/bin/node","npm_package_resolved":"https://registry.npmjs.org/node-pty/-/node-pty-1.0.0.tgz","SHLVL":"1","npm_config_noproxy":"","HOME":"/home/vboxuser","npm_package_optional":"","DESKTOP_SESSION":"ubuntu","NVM_BIN":"/home/vboxuser/.nvm/versions/node/v22.17.1/bin","npm_package_json":"/home/vboxuser/Documents/whosedev/node_modules/node-pty/package.json","NVM_INC":"/home/vboxuser/.nvm/versions/node/v22.17.1/include/node","GNOME_SHELL_SESSION_MODE":"ubuntu","GTK_MODULES":"gail:atk-bridge","npm_config_userconfig":"/home/vboxuser/.npmrc","npm_config_local_prefix":"/home/vboxuser/Documents/whosedev","npm_package_integrity":"sha512-wtBMWWS7dFZm/VgqElrTvtfMq4GzJ6+edFI0Y0zyzygUSZMgZdraDUMUhCIvkjhJjme15qWmbyJbtAx4ot4uZA==","SYSTEMD_EXEC_PID":"2270","GSM_SKIP_SSH_AGENT_WORKAROUND":"true","DBUS_SESSION_BUS_ADDRESS":"unix:path=/run/user/1000/bus","COLORTERM":"truecolor","COLOR":"1","NVM_DIR":"/home/vboxuser/.nvm","DEBUGINFOD_URLS":"https://debuginfod.ubuntu.com ","IM_CONFIG_PHASE":"1","WAYLAND_DISPLAY":"wayland-0","LOGNAME":"vboxuser","_":"/home/vboxuser/.nvm/versions/node/v22.17.1/bin/npm","npm_config_prefix":"/home/vboxuser/.nvm/versions/node/v22.17.1","npm_config_npm_version":"10.9.2","MEMORY_PRESSURE_WATCH":"/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure","XDG_SESSION_CLASS":"user","USERNAME":"vboxuser","TERM":"dumb","npm_config_cache":"/home/vboxuser/.npm","GNOME_DESKTOP_SESSION_ID":"this-is-deprecated","npm_config_node_gyp":"/home/vboxuser/.nvm/versions/node/v22.17.1/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js","PATH":"/home/vboxuser/Documents/whosedev/node_modules/node-pty/node_modules/.bin:/home/vboxuser/Documents/whosedev/node_modules/node_modules/.bin:/home/vboxuser/Documents/whosedev/node_modules/.bin:/home/vboxuser/Documents/node_modules/.bin:/home/vboxuser/node_modules/.bin:/home/node_modules/.bin:/node_modules/.bin:/home/vboxuser/.nvm/versions/node/v22.17.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/home/vboxuser/.nvm/versions/node/v22.17.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin","SESSION_MANAGER":"local/paulosab:@/tmp/.ICE-unix/2214,unix/paulosab:/tmp/.ICE-unix/2214","NODE":"/home/vboxuser/.nvm/versions/node/v22.17.1/bin/node","npm_package_name":"node-pty","XDG_MENU_PREFIX":"gnome-","GNOME_TERMINAL_SCREEN":"/org/gnome/Terminal/screen/a64e28b9_3f75_467e_85bb_4ab4992427df","GNOME_SETUP_DISPLAY":":1","XDG_RUNTIME_DIR":"/run/user/1000","DISPLAY":":0","LANG":"en_US.UTF-8","XDG_CURRENT_DESKTOP":"ubuntu:GNOME","XMODIFIERS":"@im=ibus","XDG_SESSION_DESKTOP":"ubuntu","XAUTHORITY":"/run/user/1000/.mutter-Xwaylandauth.EI5LA3","LS_COLORS":"rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.7z=01;31:*.ace=01;31:*.alz=01;31:*.apk=01;31:*.arc=01;31:*.arj=01;31:*.bz=01;31:*.bz2=01;31:*.cab=01;31:*.cpio=01;31:*.crate=01;31:*.deb=01;31:*.drpm=01;31:*.dwm=01;31:*.dz=01;31:*.ear=01;31:*.egg=01;31:*.esd=01;31:*.gz=01;31:*.jar=01;31:*.lha=01;31:*.lrz=01;31:*.lz=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.lzo=01;31:*.pyz=01;31:*.rar=01;31:*.rpm=01;31:*.rz=01;31:*.sar=01;31:*.swm=01;31:*.t7z=01;31:*.tar=01;31:*.taz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tgz=01;31:*.tlz=01;31:*.txz=01;31:*.tz=01;31:*.tzo=01;31:*.tzst=01;31:*.udeb=01;31:*.war=01;31:*.whl=01;31:*.wim=01;31:*.xz=01;31:*.z=01;31:*.zip=01;31:*.zoo=01;31:*.zst=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:","GNOME_TERMINAL_SERVICE":":1.94","npm_config_loglevel":"verbose","npm_lifecycle_script":"node-gyp rebuild","SSH_AUTH_SOCK":"/run/user/1000/keyring/ssh","SHELL":"/bin/bash","npm_package_version":"1.0.0","npm_lifecycle_event":"install","QT_ACCESSIBILITY":"1","GDMSESSION":"ubuntu","LESSCLOSE":"/usr/bin/lesspipe %s %s","npm_package_dev_optional":"","QT_IM_MODULE":"ibus","npm_config_globalconfig":"/home/vboxuser/.nvm/versions/node/v22.17.1/etc/npmrc","npm_config_init_module":"/home/vboxuser/.npm-init.js","npm_package_peer":"","PWD":"/home/vboxuser/Documents/whosedev/node_modules/node-pty","npm_execpath":"/home/vboxuser/.nvm/versions/node/v22.17.1/lib/node_modules/npm/bin/npm-cli.js","XDG_CONFIG_DIRS":"/etc/xdg/xdg-ubuntu:/etc/xdg","NVM_CD_FLAGS":"","XDG_DATA_DIRS":"/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop","npm_config_global_prefix":"/home/vboxuser/.nvm/versions/node/v22.17.1","npm_command":"install","MEMORY_PRESSURE_WRITE":"c29tZSAyMDAwMDAgMjAwMDAwMAA=","VTE_VERSION":"8000","INIT_CWD":"/home/vboxuser/Documents/whosedev","EDITOR":"vi"},"shell":false}
+npm error gyp sill find Python execFile result: err = null
+npm error gyp sill find Python execFile result: stdout = "/usr/bin/python3"
+npm error gyp sill find Python execFile result: stderr = ""
+npm error gyp verb find Python - executable path is "/usr/bin/python3"
+npm error gyp verb find Python - executing "/usr/bin/python3" to get version
+npm error gyp sill find Python execFile: exec = "/usr/bin/python3"
+npm error gyp sill find Python execFile: args = ["-c","import sys; print(\"%s.%s.%s\" % sys.version_info[:3]);"]
+npm error gyp sill find Python execFile: opts = {"env":{"LESSOPEN":"| /usr/bin/lesspipe %s","npm_package_dev":"","USER":"vboxuser","npm_config_user_agent":"npm/10.9.2 node/v22.17.1 linux x64 workspaces/false","XDG_SESSION_TYPE":"wayland","npm_node_execpath":"/home/vboxuser/.nvm/versions/node/v22.17.1/bin/node","npm_package_resolved":"https://registry.npmjs.org/node-pty/-/node-pty-1.0.0.tgz","SHLVL":"1","npm_config_noproxy":"","HOME":"/home/vboxuser","npm_package_optional":"","DESKTOP_SESSION":"ubuntu","NVM_BIN":"/home/vboxuser/.nvm/versions/node/v22.17.1/bin","npm_package_json":"/home/vboxuser/Documents/whosedev/node_modules/node-pty/package.json","NVM_INC":"/home/vboxuser/.nvm/versions/node/v22.17.1/include/node","GNOME_SHELL_SESSION_MODE":"ubuntu","GTK_MODULES":"gail:atk-bridge","npm_config_userconfig":"/home/vboxuser/.npmrc","npm_config_local_prefix":"/home/vboxuser/Documents/whosedev","npm_package_integrity":"sha512-wtBMWWS7dFZm/VgqElrTvtfMq4GzJ6+edFI0Y0zyzygUSZMgZdraDUMUhCIvkjhJjme15qWmbyJbtAx4ot4uZA==","SYSTEMD_EXEC_PID":"2270","GSM_SKIP_SSH_AGENT_WORKAROUND":"true","DBUS_SESSION_BUS_ADDRESS":"unix:path=/run/user/1000/bus","COLORTERM":"truecolor","COLOR":"1","NVM_DIR":"/home/vboxuser/.nvm","DEBUGINFOD_URLS":"https://debuginfod.ubuntu.com ","IM_CONFIG_PHASE":"1","WAYLAND_DISPLAY":"wayland-0","LOGNAME":"vboxuser","_":"/home/vboxuser/.nvm/versions/node/v22.17.1/bin/npm","npm_config_prefix":"/home/vboxuser/.nvm/versions/node/v22.17.1","npm_config_npm_version":"10.9.2","MEMORY_PRESSURE_WATCH":"/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure","XDG_SESSION_CLASS":"user","USERNAME":"vboxuser","TERM":"dumb","npm_config_cache":"/home/vboxuser/.npm","GNOME_DESKTOP_SESSION_ID":"this-is-deprecated","npm_config_node_gyp":"/home/vboxuser/.nvm/versions/node/v22.17.1/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js","PATH":"/home/vboxuser/Documents/whosedev/node_modules/node-pty/node_modules/.bin:/home/vboxuser/Documents/whosedev/node_modules/node_modules/.bin:/home/vboxuser/Documents/whosedev/node_modules/.bin:/home/vboxuser/Documents/node_modules/.bin:/home/vboxuser/node_modules/.bin:/home/node_modules/.bin:/node_modules/.bin:/home/vboxuser/.nvm/versions/node/v22.17.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/home/vboxuser/.nvm/versions/node/v22.17.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin","SESSION_MANAGER":"local/paulosab:@/tmp/.ICE-unix/2214,unix/paulosab:/tmp/.ICE-unix/2214","NODE":"/home/vboxuser/.nvm/versions/node/v22.17.1/bin/node","npm_package_name":"node-pty","XDG_MENU_PREFIX":"gnome-","GNOME_TERMINAL_SCREEN":"/org/gnome/Terminal/screen/a64e28b9_3f75_467e_85bb_4ab4992427df","GNOME_SETUP_DISPLAY":":1","XDG_RUNTIME_DIR":"/run/user/1000","DISPLAY":":0","LANG":"en_US.UTF-8","XDG_CURRENT_DESKTOP":"ubuntu:GNOME","XMODIFIERS":"@im=ibus","XDG_SESSION_DESKTOP":"ubuntu","XAUTHORITY":"/run/user/1000/.mutter-Xwaylandauth.EI5LA3","LS_COLORS":"rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.7z=01;31:*.ace=01;31:*.alz=01;31:*.apk=01;31:*.arc=01;31:*.arj=01;31:*.bz=01;31:*.bz2=01;31:*.cab=01;31:*.cpio=01;31:*.crate=01;31:*.deb=01;31:*.drpm=01;31:*.dwm=01;31:*.dz=01;31:*.ear=01;31:*.egg=01;31:*.esd=01;31:*.gz=01;31:*.jar=01;31:*.lha=01;31:*.lrz=01;31:*.lz=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.lzo=01;31:*.pyz=01;31:*.rar=01;31:*.rpm=01;31:*.rz=01;31:*.sar=01;31:*.swm=01;31:*.t7z=01;31:*.tar=01;31:*.taz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tgz=01;31:*.tlz=01;31:*.txz=01;31:*.tz=01;31:*.tzo=01;31:*.tzst=01;31:*.udeb=01;31:*.war=01;31:*.whl=01;31:*.wim=01;31:*.xz=01;31:*.z=01;31:*.zip=01;31:*.zoo=01;31:*.zst=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:","GNOME_TERMINAL_SERVICE":":1.94","npm_config_loglevel":"verbose","npm_lifecycle_script":"node-gyp rebuild","SSH_AUTH_SOCK":"/run/user/1000/keyring/ssh","SHELL":"/bin/bash","npm_package_version":"1.0.0","npm_lifecycle_event":"install","QT_ACCESSIBILITY":"1","GDMSESSION":"ubuntu","LESSCLOSE":"/usr/bin/lesspipe %s %s","npm_package_dev_optional":"","QT_IM_MODULE":"ibus","npm_config_globalconfig":"/home/vboxuser/.nvm/versions/node/v22.17.1/etc/npmrc","npm_config_init_module":"/home/vboxuser/.npm-init.js","npm_package_peer":"","PWD":"/home/vboxuser/Documents/whosedev/node_modules/node-pty","npm_execpath":"/home/vboxuser/.nvm/versions/node/v22.17.1/lib/node_modules/npm/bin/npm-cli.js","XDG_CONFIG_DIRS":"/etc/xdg/xdg-ubuntu:/etc/xdg","NVM_CD_FLAGS":"","XDG_DATA_DIRS":"/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop","npm_config_global_prefix":"/home/vboxuser/.nvm/versions/node/v22.17.1","npm_command":"install","MEMORY_PRESSURE_WRITE":"c29tZSAyMDAwMDAgMjAwMDAwMAA=","VTE_VERSION":"8000","INIT_CWD":"/home/vboxuser/Documents/whosedev","EDITOR":"vi"},"shell":false}
+npm error gyp sill find Python execFile result: err = null
+npm error gyp sill find Python execFile result: stdout = "3.13.3\n"
+npm error gyp sill find Python execFile result: stderr = ""
+npm error gyp verb find Python - version is "3.13.3"
+npm error gyp info find Python using Python version 3.13.3 found at "/usr/bin/python3"
+npm error gyp verb get node dir no --target version specified, falling back to host node version: 22.17.1
+npm error gyp verb install input version string "22.17.1"
+npm error gyp verb install installing version: 22.17.1
+npm error gyp verb install --ensure was passed, so won't reinstall if already installed
+npm error gyp verb install version is already installed, need to check "installVersion"
+npm error gyp verb got "installVersion" 11
+npm error gyp verb needs "installVersion" 11
+npm error gyp verb install version is good
+npm error gyp verb get node dir target node version installed: 22.17.1
+npm error gyp verb build dir attempting to create "build" dir: /home/vboxuser/Documents/whosedev/node_modules/node-pty/build
+npm error gyp verb build dir "build" dir needed to be created? Yes
+npm error gyp verb build/config.gypi creating config file
+npm error gyp sill build/config.gypi {
+npm error gyp sill build/config.gypi target_defaults: {
+npm error gyp sill build/config.gypi cflags: [],
+npm error gyp sill build/config.gypi configurations: { Debug: [Object], Release: [Object] },
+npm error gyp sill build/config.gypi default_configuration: 'Release',
+npm error gyp sill build/config.gypi defines: [],
+npm error gyp sill build/config.gypi include_dirs: [],
+npm error gyp sill build/config.gypi libraries: []
+npm error gyp sill build/config.gypi },
+npm error gyp sill build/config.gypi variables: {
+npm error gyp sill build/config.gypi asan: 0,
+npm error gyp sill build/config.gypi clang: 0,
+npm error gyp sill build/config.gypi control_flow_guard: false,
+npm error gyp sill build/config.gypi coverage: false,
+npm error gyp sill build/config.gypi dcheck_always_on: 0,
+npm error gyp sill build/config.gypi debug_nghttp2: false,
+npm error gyp sill build/config.gypi debug_node: false,
+npm error gyp sill build/config.gypi enable_lto: false,
+npm error gyp sill build/config.gypi enable_pgo_generate: false,
+npm error gyp sill build/config.gypi enable_pgo_use: false,
+npm error gyp sill build/config.gypi error_on_warn: false,
+npm error gyp sill build/config.gypi force_dynamic_crt: 0,
+npm error gyp sill build/config.gypi gas_version: '2.35',
+npm error gyp sill build/config.gypi host_arch: 'x64',
+npm error gyp sill build/config.gypi icu_data_in: '../../deps/icu-tmp/icudt77l.dat',
+npm error gyp sill build/config.gypi icu_endianness: 'l',
+npm error gyp sill build/config.gypi icu_gyp_path: 'tools/icu/icu-generic.gyp',
+npm error gyp sill build/config.gypi icu_path: 'deps/icu-small',
+npm error gyp sill build/config.gypi icu_small: false,
+npm error gyp sill build/config.gypi icu_ver_major: '77',
+npm error gyp sill build/config.gypi libdir: 'lib',
+npm error gyp sill build/config.gypi llvm_version: '0.0',
+npm error gyp sill build/config.gypi napi_build_version: '10',
+npm error gyp sill build/config.gypi node_builtin_shareable_builtins: [
+npm error gyp sill build/config.gypi 'deps/cjs-module-lexer/lexer.js',
+npm error gyp sill build/config.gypi 'deps/cjs-module-lexer/dist/lexer.js',
+npm error gyp sill build/config.gypi 'deps/undici/undici.js',
+npm error gyp sill build/config.gypi 'deps/amaro/dist/index.js'
+npm error gyp sill build/config.gypi ],
+npm error gyp sill build/config.gypi node_byteorder: 'little',
+npm error gyp sill build/config.gypi node_cctest_sources: [
+npm error gyp sill build/config.gypi 'src/node_snapshot_stub.cc',
+npm error gyp sill build/config.gypi 'test/cctest/inspector/test_node_protocol.cc',
+npm error gyp sill build/config.gypi 'test/cctest/node_test_fixture.cc',
+npm error gyp sill build/config.gypi 'test/cctest/test_aliased_buffer.cc',
+npm error gyp sill build/config.gypi 'test/cctest/test_base64.cc',
+npm error gyp sill build/config.gypi 'test/cctest/test_base_object_ptr.cc',
+npm error gyp sill build/config.gypi 'test/cctest/test_cppgc.cc',
+npm error gyp sill build/config.gypi 'test/cctest/test_crypto_clienthello.cc',
+npm error gyp sill build/config.gypi 'test/cctest/test_dataqueue.cc',
+npm error gyp sill build/config.gypi 'test/cctest/test_environment.cc',
+npm error gyp sill build/config.gypi 'test/cctest/test_inspector_socket.cc',
+npm error gyp sill build/config.gypi 'test/cctest/test_inspector_socket_server.cc',
+npm error gyp sill build/config.gypi 'test/cctest/test_json_utils.cc',
+npm error gyp sill build/config.gypi 'test/cctest/test_linked_binding.cc',
+npm error gyp sill build/config.gypi 'test/cctest/test_node_api.cc',
+npm error gyp sill build/config.gypi 'test/cctest/test_node_crypto.cc',
+npm error gyp sill build/config.gypi 'test/cctest/test_node_crypto_env.cc',
+npm error gyp sill build/config.gypi 'test/cctest/test_node_postmortem_metadata.cc',
+npm error gyp sill build/config.gypi 'test/cctest/test_node_task_runner.cc',
+npm error gyp sill build/config.gypi 'test/cctest/test_path.cc',
+npm error gyp sill build/config.gypi 'test/cctest/test_per_process.cc',
+npm error gyp sill build/config.gypi 'test/cctest/test_platform.cc',
+npm error gyp sill build/config.gypi 'test/cctest/test_quic_cid.cc',
+npm error gyp sill build/config.gypi 'test/cctest/test_quic_error.cc',
+npm error gyp sill build/config.gypi 'test/cctest/test_quic_tokens.cc',
+npm error gyp sill build/config.gypi 'test/cctest/test_report.cc',
+npm error gyp sill build/config.gypi 'test/cctest/test_sockaddr.cc',
+npm error gyp sill build/config.gypi 'test/cctest/test_traced_value.cc',
+npm error gyp sill build/config.gypi 'test/cctest/test_util.cc',
+npm error gyp sill build/config.gypi 'test/cctest/node_test_fixture.h'
+npm error gyp sill build/config.gypi ],
+npm error gyp sill build/config.gypi node_debug_lib: false,
+npm error gyp sill build/config.gypi node_enable_d8: false,
+npm error gyp sill build/config.gypi node_enable_v8_vtunejit: false,
+npm error gyp sill build/config.gypi node_fipsinstall: false,
+npm error gyp sill build/config.gypi node_install_corepack: true,
+npm error gyp sill build/config.gypi node_install_npm: true,
+npm error gyp sill build/config.gypi node_library_files: [
+npm error gyp sill build/config.gypi 'lib/_http_agent.js',
+npm error gyp sill build/config.gypi 'lib/_http_client.js',
+npm error gyp sill build/config.gypi 'lib/_http_common.js',
+npm error gyp sill build/config.gypi 'lib/_http_incoming.js',
+npm error gyp sill build/config.gypi 'lib/_http_outgoing.js',
+npm error gyp sill build/config.gypi 'lib/_http_server.js',
+npm error gyp sill build/config.gypi 'lib/_stream_duplex.js',
+npm error gyp sill build/config.gypi 'lib/_stream_passthrough.js',
+npm error gyp sill build/config.gypi 'lib/_stream_readable.js',
+npm error gyp sill build/config.gypi 'lib/_stream_transform.js',
+npm error gyp sill build/config.gypi 'lib/_stream_wrap.js',
+npm error gyp sill build/config.gypi 'lib/_stream_writable.js',
+npm error gyp sill build/config.gypi 'lib/_tls_common.js',
+npm error gyp sill build/config.gypi 'lib/_tls_wrap.js',
+npm error gyp sill build/config.gypi 'lib/assert.js',
+npm error gyp sill build/config.gypi 'lib/assert/strict.js',
+npm error gyp sill build/config.gypi 'lib/async_hooks.js',
+npm error gyp sill build/config.gypi 'lib/buffer.js',
+npm error gyp sill build/config.gypi 'lib/child_process.js',
+npm error gyp sill build/config.gypi 'lib/cluster.js',
+npm error gyp sill build/config.gypi 'lib/console.js',
+npm error gyp sill build/config.gypi 'lib/constants.js',
+npm error gyp sill build/config.gypi 'lib/crypto.js',
+npm error gyp sill build/config.gypi 'lib/dgram.js',
+npm error gyp sill build/config.gypi 'lib/diagnostics_channel.js',
+npm error gyp sill build/config.gypi 'lib/dns.js',
+npm error gyp sill build/config.gypi 'lib/dns/promises.js',
+npm error gyp sill build/config.gypi 'lib/domain.js',
+npm error gyp sill build/config.gypi 'lib/events.js',
+npm error gyp sill build/config.gypi 'lib/fs.js',
+npm error gyp sill build/config.gypi 'lib/fs/promises.js',
+npm error gyp sill build/config.gypi 'lib/http.js',
+npm error gyp sill build/config.gypi 'lib/http2.js',
+npm error gyp sill build/config.gypi 'lib/https.js',
+npm error gyp sill build/config.gypi 'lib/inspector.js',
+npm error gyp sill build/config.gypi 'lib/inspector/promises.js',
+npm error gyp sill build/config.gypi 'lib/internal/abort_controller.js',
+npm error gyp sill build/config.gypi 'lib/internal/assert.js',
+npm error gyp sill build/config.gypi 'lib/internal/assert/assertion_error.js',
+npm error gyp sill build/config.gypi 'lib/internal/assert/calltracker.js',
+npm error gyp sill build/config.gypi 'lib/internal/assert/myers_diff.js',
+npm error gyp sill build/config.gypi 'lib/internal/assert/utils.js',
+npm error gyp sill build/config.gypi 'lib/internal/async_context_frame.js',
+npm error gyp sill build/config.gypi 'lib/internal/async_hooks.js',
+npm error gyp sill build/config.gypi 'lib/internal/async_local_storage/async_context_frame.js',
+npm error gyp sill build/config.gypi 'lib/internal/async_local_storage/async_hooks.js',
+npm error gyp sill build/config.gypi 'lib/internal/blob.js',
+npm error gyp sill build/config.gypi 'lib/internal/blocklist.js',
+npm error gyp sill build/config.gypi 'lib/internal/bootstrap/node.js',
+npm error gyp sill build/config.gypi 'lib/internal/bootstrap/realm.js',
+npm error gyp sill build/config.gypi 'lib/internal/bootstrap/shadow_realm.js',
+npm error gyp sill build/config.gypi 'lib/internal/bootstrap/switches/does_not_own_process_state.js',
+npm error gyp sill build/config.gypi 'lib/internal/bootstrap/switches/does_own_process_state.js',
+npm error gyp sill build/config.gypi 'lib/internal/bootstrap/switches/is_main_thread.js',
+npm error gyp sill build/config.gypi 'lib/internal/bootstrap/switches/is_not_main_thread.js',
+npm error gyp sill build/config.gypi 'lib/internal/bootstrap/web/exposed-wildcard.js',
+npm error gyp sill build/config.gypi 'lib/internal/bootstrap/web/exposed-window-or-worker.js',
+npm error gyp sill build/config.gypi 'lib/internal/buffer.js',
+npm error gyp sill build/config.gypi 'lib/internal/child_process.js',
+npm error gyp sill build/config.gypi 'lib/internal/child_process/serialization.js',
+npm error gyp sill build/config.gypi 'lib/internal/cli_table.js',
+npm error gyp sill build/config.gypi 'lib/internal/cluster/child.js',
+npm error gyp sill build/config.gypi 'lib/internal/cluster/primary.js',
+npm error gyp sill build/config.gypi 'lib/internal/cluster/round_robin_handle.js',
+npm error gyp sill build/config.gypi 'lib/internal/cluster/shared_handle.js',
+npm error gyp sill build/config.gypi 'lib/internal/cluster/utils.js',
+npm error gyp sill build/config.gypi 'lib/internal/cluster/worker.js',
+npm error gyp sill build/config.gypi 'lib/internal/console/constructor.js',
+npm error gyp sill build/config.gypi 'lib/internal/console/global.js',
+npm error gyp sill build/config.gypi 'lib/internal/constants.js',
+npm error gyp sill build/config.gypi 'lib/internal/crypto/aes.js',
+npm error gyp sill build/config.gypi 'lib/internal/crypto/certificate.js',
+npm error gyp sill build/config.gypi 'lib/internal/crypto/cfrg.js',
+npm error gyp sill build/config.gypi 'lib/internal/crypto/cipher.js',
+npm error gyp sill build/config.gypi 'lib/internal/crypto/diffiehellman.js',
+npm error gyp sill build/config.gypi 'lib/internal/crypto/ec.js',
+npm error gyp sill build/config.gypi 'lib/internal/crypto/hash.js',
+npm error gyp sill build/config.gypi 'lib/internal/crypto/hashnames.js',
+npm error gyp sill build/config.gypi 'lib/internal/crypto/hkdf.js',
+npm error gyp sill build/config.gypi 'lib/internal/crypto/keygen.js',
+npm error gyp sill build/config.gypi 'lib/internal/crypto/keys.js',
+npm error gyp sill build/config.gypi 'lib/internal/crypto/mac.js',
+npm error gyp sill build/config.gypi 'lib/internal/crypto/pbkdf2.js',
+npm error gyp sill build/config.gypi 'lib/internal/crypto/random.js',
+npm error gyp sill build/config.gypi 'lib/internal/crypto/rsa.js',
+npm error gyp sill build/config.gypi 'lib/internal/crypto/scrypt.js',
+npm error gyp sill build/config.gypi 'lib/internal/crypto/sig.js',
+npm error gyp sill build/config.gypi 'lib/internal/crypto/util.js',
+npm error gyp sill build/config.gypi 'lib/internal/crypto/webcrypto.js',
+npm error gyp sill build/config.gypi 'lib/internal/crypto/webidl.js',
+npm error gyp sill build/config.gypi 'lib/internal/crypto/x509.js',
+npm error gyp sill build/config.gypi 'lib/internal/data_url.js',
+npm error gyp sill build/config.gypi 'lib/internal/debugger/inspect.js',
+npm error gyp sill build/config.gypi 'lib/internal/debugger/inspect_client.js',
+npm error gyp sill build/config.gypi 'lib/internal/debugger/inspect_repl.js',
+npm error gyp sill build/config.gypi 'lib/internal/dgram.js',
+npm error gyp sill build/config.gypi 'lib/internal/dns/callback_resolver.js',
+npm error gyp sill build/config.gypi 'lib/internal/dns/promises.js',
+npm error gyp sill build/config.gypi 'lib/internal/dns/utils.js',
+npm error gyp sill build/config.gypi 'lib/internal/encoding.js',
+npm error gyp sill build/config.gypi ... 234 more items
+npm error gyp sill build/config.gypi ],
+npm error gyp sill build/config.gypi node_module_version: 127,
+npm error gyp sill build/config.gypi node_no_browser_globals: false,
+npm error gyp sill build/config.gypi node_prefix: '/',
+npm error gyp sill build/config.gypi node_release_urlbase: 'https://nodejs.org/download/release/',
+npm error gyp sill build/config.gypi node_section_ordering_info: '',
+npm error gyp sill build/config.gypi node_shared: false,
+npm error gyp sill build/config.gypi node_shared_ada: false,
+npm error gyp sill build/config.gypi node_shared_brotli: false,
+npm error gyp sill build/config.gypi node_shared_cares: false,
+npm error gyp sill build/config.gypi node_shared_http_parser: false,
+npm error gyp sill build/config.gypi node_shared_libuv: false,
+npm error gyp sill build/config.gypi node_shared_nghttp2: false,
+npm error gyp sill build/config.gypi node_shared_nghttp3: false,
+npm error gyp sill build/config.gypi node_shared_ngtcp2: false,
+npm error gyp sill build/config.gypi node_shared_openssl: false,
+npm error gyp sill build/config.gypi node_shared_simdjson: false,
+npm error gyp sill build/config.gypi node_shared_simdutf: false,
+npm error gyp sill build/config.gypi node_shared_sqlite: false,
+npm error gyp sill build/config.gypi node_shared_uvwasi: false,
+npm error gyp sill build/config.gypi node_shared_zlib: false,
+npm error gyp sill build/config.gypi node_shared_zstd: false,
+npm error gyp sill build/config.gypi node_tag: '',
+npm error gyp sill build/config.gypi node_target_type: 'executable',
+npm error gyp sill build/config.gypi node_use_amaro: true,
+npm error gyp sill build/config.gypi node_use_bundled_v8: true,
+npm error gyp sill build/config.gypi node_use_node_code_cache: true,
+npm error gyp sill build/config.gypi node_use_node_snapshot: true,
+npm error gyp sill build/config.gypi node_use_openssl: true,
+npm error gyp sill build/config.gypi node_use_sqlite: true,
+npm error gyp sill build/config.gypi node_use_v8_platform: true,
+npm error gyp sill build/config.gypi node_with_ltcg: false,
+npm error gyp sill build/config.gypi node_without_node_options: false,
+npm error gyp sill build/config.gypi node_write_snapshot_as_array_literals: false,
+npm error gyp sill build/config.gypi openssl_is_fips: false,
+npm error gyp sill build/config.gypi openssl_quic: false,
+npm error gyp sill build/config.gypi ossfuzz: false,
+npm error gyp sill build/config.gypi shlib_suffix: 'so.127',
+npm error gyp sill build/config.gypi single_executable_application: true,
+npm error gyp sill build/config.gypi suppress_all_error_on_warn: false,
+npm error gyp sill build/config.gypi target_arch: 'x64',
+npm error gyp sill build/config.gypi ubsan: 0,
+npm error gyp sill build/config.gypi use_ccache_win: 0,
+npm error gyp sill build/config.gypi use_prefix_to_find_headers: false,
+npm error gyp sill build/config.gypi v8_enable_31bit_smis_on_64bit_arch: 0,
+npm error gyp sill build/config.gypi v8_enable_extensible_ro_snapshot: 0,
+npm error gyp sill build/config.gypi v8_enable_external_code_space: 0,
+npm error gyp sill build/config.gypi v8_enable_gdbjit: 0,
+npm error gyp sill build/config.gypi v8_enable_hugepage: 0,
+npm error gyp sill build/config.gypi v8_enable_i18n_support: 1,
+npm error gyp sill build/config.gypi v8_enable_inspector: 1,
+npm error gyp sill build/config.gypi v8_enable_javascript_promise_hooks: 1,
+npm error gyp sill build/config.gypi v8_enable_lite_mode: 0,
+npm error gyp sill build/config.gypi v8_enable_maglev: 0,
+npm error gyp sill build/config.gypi v8_enable_object_print: 1,
+npm error gyp sill build/config.gypi v8_enable_pointer_compression: 0,
+npm error gyp sill build/config.gypi v8_enable_pointer_compression_shared_cage: 0,
+npm error gyp sill build/config.gypi v8_enable_sandbox: 0,
+npm error gyp sill build/config.gypi v8_enable_shared_ro_heap: 1,
+npm error gyp sill build/config.gypi v8_enable_short_builtin_calls: 1,
+npm error gyp sill build/config.gypi v8_enable_wasm_simd256_revec: 1,
+npm error gyp sill build/config.gypi v8_enable_webassembly: 1,
+npm error gyp sill build/config.gypi v8_optimized_debug: 1,
+npm error gyp sill build/config.gypi v8_promise_internal_field_count: 1,
+npm error gyp sill build/config.gypi v8_random_seed: 0,
+npm error gyp sill build/config.gypi v8_trace_maps: 0,
+npm error gyp sill build/config.gypi v8_use_siphash: 1,
+npm error gyp sill build/config.gypi want_separate_host_toolset: 0,
+npm error gyp sill build/config.gypi nodedir: '/home/vboxuser/.cache/node-gyp/22.17.1',
+npm error gyp sill build/config.gypi python: '/usr/bin/python3',
+npm error gyp sill build/config.gypi standalone_static_library: 1,
+npm error gyp sill build/config.gypi user_agent: 'npm/10.9.2 node/v22.17.1 linux x64 workspaces/false',
+npm error gyp sill build/config.gypi userconfig: '/home/vboxuser/.npmrc',
+npm error gyp sill build/config.gypi local_prefix: '/home/vboxuser/Documents/whosedev',
+npm error gyp sill build/config.gypi prefix: '/home/vboxuser/.nvm/versions/node/v22.17.1',
+npm error gyp sill build/config.gypi npm_version: '10.9.2',
+npm error gyp sill build/config.gypi cache: '/home/vboxuser/.npm',
+npm error gyp sill build/config.gypi node_gyp: '/home/vboxuser/.nvm/versions/node/v22.17.1/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js',
+npm error gyp sill build/config.gypi globalconfig: '/home/vboxuser/.nvm/versions/node/v22.17.1/etc/npmrc',
+npm error gyp sill build/config.gypi init_module: '/home/vboxuser/.npm-init.js',
+npm error gyp sill build/config.gypi global_prefix: '/home/vboxuser/.nvm/versions/node/v22.17.1'
+npm error gyp sill build/config.gypi }
+npm error gyp sill build/config.gypi }
+npm error gyp verb build/config.gypi writing out config file: /home/vboxuser/Documents/whosedev/node_modules/node-pty/build/config.gypi
+npm error gyp verb config.gypi checking for gypi file: /home/vboxuser/Documents/whosedev/node_modules/node-pty/config.gypi
+npm error gyp verb common.gypi checking for gypi file: /home/vboxuser/Documents/whosedev/node_modules/node-pty/common.gypi
+npm error gyp verb gyp gyp format was not specified; forcing "make"
+npm error gyp info spawn /usr/bin/python3
+npm error gyp info spawn args [
+npm error gyp info spawn args '/home/vboxuser/Documents/whosedev/node_modules/@electron/node-gyp/gyp/gyp_main.py',
+npm error gyp info spawn args 'binding.gyp',
+npm error gyp info spawn args '-f',
+npm error gyp info spawn args 'make',
+npm error gyp info spawn args '-I',
+npm error gyp info spawn args '/home/vboxuser/Documents/whosedev/node_modules/node-pty/build/config.gypi',
+npm error gyp info spawn args '-I',
+npm error gyp info spawn args '/home/vboxuser/Documents/whosedev/node_modules/@electron/node-gyp/addon.gypi',
+npm error gyp info spawn args '-I',
+npm error gyp info spawn args '/home/vboxuser/.cache/node-gyp/22.17.1/include/node/common.gypi',
+npm error gyp info spawn args '-Dlibrary=shared_library',
+npm error gyp info spawn args '-Dvisibility=default',
+npm error gyp info spawn args '-Dnode_root_dir=/home/vboxuser/.cache/node-gyp/22.17.1',
+npm error gyp info spawn args '-Dnode_gyp_dir=/home/vboxuser/Documents/whosedev/node_modules/@electron/node-gyp',
+npm error gyp info spawn args '-Dnode_lib_file=/home/vboxuser/.cache/node-gyp/22.17.1/<(target_arch)/node.lib',
+npm error gyp info spawn args '-Dmodule_root_dir=/home/vboxuser/Documents/whosedev/node_modules/node-pty',
+npm error gyp info spawn args '-Dnode_engine=v8',
+npm error gyp info spawn args '--depth=.',
+npm error gyp info spawn args '--no-parallel',
+npm error gyp info spawn args '--generator-output',
+npm error gyp info spawn args 'build',
+npm error gyp info spawn args '-Goutput_dir=.'
+npm error gyp info spawn args ]
+npm error gyp verb build type Release
+npm error gyp verb architecture x64
+npm error gyp verb node dev dir /home/vboxuser/.cache/node-gyp/22.17.1
+npm error gyp verb python /usr/bin/python3
+npm error gyp verb `which` succeeded for `make` /usr/bin/make
+npm error gyp verb bin symlinks created symlink to "/usr/bin/python3" in "/home/vboxuser/Documents/whosedev/node_modules/node-pty/build/node_gyp_bins" and added to PATH
+npm error gyp info spawn make
+npm error gyp info spawn args [ 'V=1', 'BUILDTYPE=Release', '-C', 'build' ]
+npm error make: g++: No such file or directory
+npm error make: *** [pty.target.mk:112: Release/obj.target/pty/src/unix/pty.o] Error 127
+npm error gyp ERR! build error 
+npm error gyp ERR! stack Error: `make` failed with exit code: 2
+npm error gyp ERR! stack at ChildProcess.<anonymous> (/home/vboxuser/Documents/whosedev/node_modules/@electron/node-gyp/lib/build.js:215:23)
+npm error gyp ERR! System Linux 6.14.0-27-generic
+npm error gyp ERR! command "/home/vboxuser/.nvm/versions/node/v22.17.1/bin/node" "/home/vboxuser/Documents/whosedev/node_modules/.bin/node-gyp" "rebuild"
+npm error gyp ERR! cwd /home/vboxuser/Documents/whosedev/node_modules/node-pty
+npm error gyp ERR! node -v v22.17.1
+npm error gyp ERR! node-gyp -v v10.2.0-electron.1
+npm error gyp ERR! not ok
+npm verbose cwd /home/vboxuser/Documents/whosedev
+npm verbose os Linux 6.14.0-27-generic
+npm verbose node v22.17.1
+npm verbose npm  v10.9.2
+npm verbose exit 1
+npm verbose code 1
+npm error A complete log of this run can be found in: /home/vboxuser/.npm/_logs/2025-07-31T08_36_21_165Z-debug-0.log
